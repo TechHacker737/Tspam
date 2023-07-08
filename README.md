@@ -1,5 +1,5 @@
-# Tspam 🧟‍♂️
-```
+# T-Find ☣️
+
 T-Find is a simple and light tool for information gathering and capture exact GPS coordinates
 
 ![image](https://wdevmail.000webhostapp.com/Picsart_23-04-29_01-13-50-302.jpg)
@@ -7,6 +7,18 @@ T-Find is a simple and light tool for information gathering and capture exact GP
 # What is T-Find?
 <p>T-Find is a tool that can remotely capture the exact GPS coordinates of a target device using a PHP server, and can also grab basic information about the system and ISP. This tool can be very helpful in information gathering. you can get following information of the target device</p>
 <ul>
+  <li>Longitude</li>
+  <li>Latitude</li>
+  <li>Device Model</li>
+  <li>Operating System</li>
+  <li>Number of CPU Cores</li>
+  <li>Screen Resolution</li>
+  <li>User agent</li>
+  <li>Public IP Address</li>
+  <li>Browser Name</li>
+  <li>ISP Information</li>
+</ul>
+
 ## Features
   <p>The tool offers a wide range of features and functionality, including:</p>
     <ul>
@@ -25,12 +37,20 @@ T-Find is a simple and light tool for information gathering and capture exact GP
   <li>Parrot Sec OS</li>
 </ul>
 
+## Installing and requirements
+<p>This tool require PHP for webserver, wget & unzip for download and extract ngrok. First run following command on your terminal</p>
+
+```
+apt-get -y install php unzip git wget
+```
+
 ## Installing (Kali Linux/Termux):
 
+```
 $ pkg install python
 $ pkg install git
 $ python3 -m pip install requests
-$ git clone https://github.com/krypton-byte/SpamWa
+$ git clone https://github.com/TechHacker737/Tspam
 $ cd SpamWa
 $ python3 spam.py
 ```
