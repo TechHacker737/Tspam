@@ -1,4 +1,4 @@
-# Tspam 🕷️
+# Tspam 🧟‍♂️
 ```
 $ pkg install python
 $ pkg install git
