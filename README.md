@@ -1,4 +1,4 @@
-# Tspam ☣️
+# Tspam 🙈🙉
 
 Tspam is a simple and light tool for spammin unlimited messages in whatsapp.
 
