@@ -38,18 +38,17 @@ T-Find is a simple and light tool for information gathering and capture exact GP
 </ul>
 
 ## Installing and requirements
-<p>This tool require PHP for webserver, wget & unzip for download and extract ngrok. First run following command on your terminal</p>
-
-```
-apt-get -y install php unzip git wget
-```
-
-## Installing (Kali Linux/Termux):
+<p>This tool require Python. First run following command on your terminal</p>
 
 ```
 $ pkg install python
 $ pkg install git
 $ python3 -m pip install requests
+```
+
+## Installing (Kali Linux/Termux):
+
+```
 $ git clone https://github.com/TechHacker737/Tspam
 $ cd SpamWa
 $ python3 spam.py
