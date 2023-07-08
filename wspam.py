@@ -211,6 +211,7 @@ def logo():
 	auth=m+'  Admin : '+k+'Tech Hacker'
 	# jika ingin m3namambah kan variabel dan mengubah data variabel kitsune bisa menambahkan %s menambahkan variabel terus di ubah menjjadu string, %d = mengubah data menjadi decimal , %i = mengubah data menjadi integer
 	return '''
+    
 %s          /---.'.__             ____//   %s╮╲╲╲╲╲╲╲╲╲╲╲╲╲╲%s
 %s               '--.\           /.---'   %s╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲%s
 %s          _______  \\         //   %s╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲╲%s
