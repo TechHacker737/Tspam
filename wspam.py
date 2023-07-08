@@ -272,25 +272,25 @@ def main():
 def jnspam():
 	global jns
 	print(logo())
-	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Exit\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'All\n'+b+'║'+m+'『'+h+'2'+m+'』 '+bm+'PHD\n'+b+'║'+m+'『'+h+'3'+m+'』 '+bm+'KitaBisa\n'+b+'║'+m+'『'+h+'4'+m+'』 '+bm+'Tokopedia\n'+b+'║'+m+'『'+h+'5'+m+'』 '+bm+'TokoTalk (Unlimited)\n'+b+'║'+m+'『'+h+'6'+m+'』 '+bm+'Balaji (Without +62 or 0)\n'+b+'╠══════════════════════════════')
+	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Exit\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'All\n'+b+'║'+m+'『'+h+'2'+m+'』 '+bm+'Us (Unlimited)\n'+b+'║'+m+'『'+h+'3'+m+'』 '+bm+'Canada (Without +62 or 0)\n'+b+'╠══════════════════════════════')
 	while True:
 		oy=str(input(b+'╚══'+m+'〙'+u+'Spam'+m+' ▶ '+h))
-		if( oy == '1' or oy == '01' ):
+		if( oy == '4' or oy == '04' ):
 			jns='smua'
 			break
-		elif( oy == '2' or oy == '02' ):
+		elif( oy == '5' or oy == '05' ):
 			jns='pehd'
 			break
-		elif( oy == '3' or oy == '03' ):
+		elif( oy == '6' or oy == '06' ):
 			jns='ktbs'
 			break
-		elif( oy == '4' or oy == '04' ):
+		elif( oy == '1' or oy == '01' ):
 			jns='tkpd'
 			break
-		elif( oy == '5' or oy == '05' ):
+		elif( oy == '2' or oy == '02' ):
 			jns='ttk'
 			break
-		elif( oy == '6' or oy == '06' ):
+		elif( oy == '3' or oy == '03' ):
 			jns='blji'
 			break
 		elif( oy == '0' or oy == '00' ):
