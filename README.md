@@ -1,31 +1,11 @@
-# T-Find ☣️
+# Tspam ☣️
 
-T-Find is a simple and light tool for information gathering and capture exact GPS coordinates
+Tspam is a simple and light tool for spammin unlimited messages in whatsapp.
 
 ![image](https://wdevmail.000webhostapp.com/Picsart_23-04-29_01-13-50-302.jpg)
 
-# What is T-Find?
-<p>T-Find is a tool that can remotely capture the exact GPS coordinates of a target device using a PHP server, and can also grab basic information about the system and ISP. This tool can be very helpful in information gathering. you can get following information of the target device</p>
-<ul>
-  <li>Longitude</li>
-  <li>Latitude</li>
-  <li>Device Model</li>
-  <li>Operating System</li>
-  <li>Number of CPU Cores</li>
-  <li>Screen Resolution</li>
-  <li>User agent</li>
-  <li>Public IP Address</li>
-  <li>Browser Name</li>
-  <li>ISP Information</li>
-</ul>
-
-## Features
-  <p>The tool offers a wide range of features and functionality, including:</p>
-    <ul>
-  <li>Capture Exact GPS Location</li>
-  <li>Automated Data Collection</li>
-   <li>User-friendly Interface</li>
-</ul>
+# What is Tspam?
+<p>They may or may not be in your contacts. These people might send you messages because they want to spread misinformation or to trick you into giving them money. What unwanted messages look like. There are clues that might indicate you've received a suspicious message, or that the sender can't be trusted.</p>
 
 ## This Tool Tested On :
 <ul>
@@ -58,5 +38,5 @@ $ python3 spam.py
 [![T-Find Demo](https://wdevmail.000webhostapp.com/Picsart_23-04-28_13-50-06-115.jpg)](https://youtu.be/BR33UiDZJn8)
 
 ### For More Video subcribe <a href="http://youtube.com/techhacker7">Tech Hacker YouTube Channel</a>
-<p>T-Find is created to help in penetration testing and it's not responsible for any misuse or illegal purposes.</p>
+
 
