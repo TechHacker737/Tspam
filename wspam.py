@@ -1,9 +1,10 @@
 #!/usr/bin/python
 import requests,random,json,time,sys,os,re
 # -----------------------------------------------------------
-# created By ./Kitsune
-# Update 14 Juny 2021 10:57
-# Thanks FoR FourX, MhankBarBar, Maulana, ITachI
+# Tidak ada author Untuk Sc ini kecuali ./Kitsune yg Telah Mendesign Dengan Sempurna
+# Update 26 january 2020 21:57
+# Recode!, dosa Tanggung Sendiri
+# Thanks For MyFriends, FourX, MhankBarBar, Maulana, Rexy
 # Underground Science And Termux Tutorial Group
 # ---------------------------------------------------------------
 
@@ -127,21 +128,21 @@ def files():
 				io=l[d].split('\n')[0]
 				z=spam(io)
 				if jns == 'ktbs':
-					print('\t'+z.spam().__str__())
+					print('\t'+z.spam())
 				elif jns == 'tkpd':
-					print('\t'+z.tokped().__str__())
+					print('\t'+z.tokped())
 				elif jns == 'blji':
-					print('\t'+z.balaji().__str__())
+					print('\t'+z.balaji())
 				elif jns == 'smua':
-					print('\t'+z.spam().__str__())
-					print('\t'+z.tokped().__str__())
-					print('\t'+z.balaji().__str__())
-					print('\t'+z.phd().__str__())
-					print('\t'+z.TokoTalk().__str__())
+					print('\t'+z.spam())
+					print('\t'+z.tokped())
+					print('\t'+z.balaji())
+					print('\t'+z.phd())
+					print('\t'+z.TokoTalk())
 				elif jns == 'pehd':
-					print('\t'+z.phd().__str__())
+					print('\t'+z.phd())
 				elif jns == 'ttk':
-					print('\t'+z.TokoTalk().__str__())
+					print('\t'+z.TokoTalk())
 				else:
 					print()
 				time.sleep(dly)
@@ -155,13 +156,13 @@ def single():
 	for oo in range(jm):
 		z=spam(nomer)
 		if jns == 'ktbs':
-			print('\t'+z.spam().__str__())
+			print('\t'+z.spam())
 		elif jns == 'tkpd':
 			print('\t'+z.tokped())
 		elif jns == 'blji':
 			print('\t'+z.balaji())
 		elif jns == 'smua':
-			print('\t'+z.spam().__str__())
+			print('\t'+z.spam())
 			print('\t'+z.tokped())
 			print('\t'+z.balaji())
 			print('\t'+z.phd())
@@ -186,13 +187,13 @@ def multi():
 		for ss in range(kk):
 			z=spam(nomer[ss])
 			if jns == 'ktbs':
-				print('\t'+z.spam().__str__())
+				print('\t'+z.spam())
 			elif jns == 'tkpd':
 				print('\t'+z.tokped())
 			elif jns == 'blji':
 				print('\t'+z.balaji())
 			elif jns == 'smua':
-				print('\t'+z.spam().__str__())
+				print('\t'+z.spam())
 				print('\t'+z.tokped())
 				print('\t'+z.balaji())
 				print('\t'+z.phd())
@@ -208,7 +209,7 @@ def multi():
 #-------------------------Fungsi Banner-----------------------
 def logo():
 	os.system('clear')
-	auth=m+'  Author : '+k+'./kitsune'
+	auth=m+'  Author : '+k+'./kitsune | Modified By: github.com/imajraj'
 	# jika ingin m3namambah kan variabel dan mengubah data variabel kitsune bisa menambahkan %s menambahkan variabel terus di ubah menjjadu string, %d = mengubah data menjadi decimal , %i = mengubah data menjadi integer
 	return '''
 %s          /---.'.__             ____//   %s╮╲╲╲╲╲╲╲╲╲╲╲╲╲╲%s
@@ -241,13 +242,13 @@ def termux():
 	for w in range(int(input(u+'\tTotal spam : '+h))):
 		z=spam(nj)
 		if jns == 'ktbs':
-			print('\t'+z.spam().__str__())
+			print('\t'+z.spam())
 		elif jns == 'tkpd':
 			print('\t'+z.tokped())
 		elif jns == 'blji':
 			print('\t'+z.balaji())
 		elif jns == 'smua':
-			print('\t'+z.spam().__str__())
+			print('\t'+z.spam())
 			print('\t'+z.tokped())
 			print('\t'+z.balaji())
 			print('\t'+z.phd())
