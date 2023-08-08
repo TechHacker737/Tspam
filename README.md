@@ -12,7 +12,6 @@ Tspam is a simple and light tool for spammin unlimited messages in whatsapp.
   <li>Kali Linux</li>
   <li>Windows(WSL)</li>
   <li>Termux</li>
-  <li>MacOS</li>
   <li>Ubuntu</li>
   <li>Parrot Sec OS</li>
 </ul>
