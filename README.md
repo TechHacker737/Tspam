@@ -30,7 +30,7 @@ $ python3 -m pip install requests
 
 ```
 $ git clone https://github.com/TechHacker737/Tspam
-$ cd SpamWa
+$ cd Tspam
 $ python3 spam.py
 ```
 
