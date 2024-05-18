@@ -35,7 +35,7 @@ class spam:
 			return f'\x1b[91mSpamm kitabisa {self.nomer} \x1b[91mFail!'
 			
 	def tokped(self):
-		rands=random.choice(open('ua.txt').readlines()).split('\n')[0]
+		rands=random.choice(open('Tspam/ua.txt').readlines()).split('\n')[0]
 		kirim = {
 			'User-Agent' : rands,
 			'Accept-Encoding' : 'gzip, deflate',
